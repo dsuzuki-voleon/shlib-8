@@ -6,6 +6,7 @@ def test_cp_real_downturn():
     """copy existing file to new file"""
     # setup
     f1 = to_path('SRCFILE')
+    touch(f1)
     f2 = to_path('f2')
 
     # run test
